@@ -1,7 +1,4 @@
-.PHONY: test
-
-install:
-	obt install --verbose
+include n.Makefile
 
 build: clean
 	obt build --js=./src/main.js --sass=./src/main.scss --buildFolder=./
@@ -9,9 +6,8 @@ build: clean
 clean:
 	rm -f ./main.*;
 
-test:
+test: verify
 	./node_modules/karma/bin/karma start --single-run
-	obt verify
 
 demo:
 	obt demo --local --watch
