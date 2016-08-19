@@ -1,5 +1,5 @@
 {
-  "name": "n-notification",
+  "name": "@financial-times/n-notification",
   "version": "0.0.0",
   "description": "Component for showing notifications to users",
   "main": "main.js",
