@@ -1,4 +1,4 @@
-import template from './template';
+import template from './template.js';
 
 const supportedTypes = ['error', 'success'];
 

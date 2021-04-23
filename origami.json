@@ -1,10 +1,7 @@
 {
-	"description": "Next FT - onsite notification bar",
-	"keywords": ["notification"],
 	"brands": ["master"],
-	"origamiType": "module",
-	"origamiVersion": 1,
-	"origamiCategory": "components",
+	"origamiType": "component",
+	"origamiVersion": "2.0",
 	"support": "https://github.com/Financial-Times/n-notification/issues",
 	"supportContact": {
 		"email": "next.team@ft.com",

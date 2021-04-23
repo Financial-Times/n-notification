@@ -1,17 +1,39 @@
 {
-  "name": "n-notification",
-  "description": "Component for showing notifications to users",
-  "main": "main.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Financial-Times/n-notification.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Financial-Times/n-notification/issues"
-  },
-  "homepage": "https://github.com/Financial-Times/n-notification",
-  "devDependencies": {
-    "origami-build-tools": "8.2.8",
-    "origami-ci-tools": "1.1.1"
-  }
+	"name": "@financial-times/n-notification",
+	"version": "0.0.0",
+	"description": "Next FT - onsite notification bar",
+	"keywords": [
+		"notification"
+	],
+	"homepage": "https://registry.origami.ft.com/components/n-notification",
+	"bugs": {
+		"url": "https://registry.origami.ft.com/components/n-notification"
+	},
+	"license": "MIT",
+	"type": "module",
+	"browser": "main.js",
+	"scripts": {
+		"start": "npx serve ./demos/local",
+		"build": "npm_config_yes=true npx \"origami-build-tools@prerelease\" install && npm_config_yes=true npx \"origami-build-tools@prerelease\" demo"
+	},
+	"devDependencies": {
+		"eslint": "^7.24.0",
+		"eslint-config-origami-component": "^2.1.1",
+		"remark": "^13.0.0",
+		"remark-lint": "^7.0.1",
+		"remark-preset-lint-origami-component": "prerelease",
+		"stylelint": "^13.12.0",
+		"stylelint-config-origami-component": "^1.0.4"
+	},
+	"peerDependencies": {
+		"@financial-times/o-colors": "prerelease",
+		"@financial-times/o-typography": "prerelease"
+	},
+	"engines": {
+		"npm": "^7"
+	},
+	"volta": {
+		"node": "14.16.1",
+		"npm": "7.10.0"
+	}
 }

@@ -1,4 +1,4 @@
-import nNotification from './src/js/n-notification';
+import nNotification from './src/js/n-notification.js';
 
 const constructAll = function() {
 	nNotification.init();

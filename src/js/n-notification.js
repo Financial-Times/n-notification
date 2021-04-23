@@ -1,4 +1,4 @@
-import Toast from './toast';
+import Toast from './toast.js';
 
 const defaults = { duration: 5000 };
 const stack = [];
