@@ -12,6 +12,6 @@
   "homepage": "https://github.com/Financial-Times/n-notification",
   "devDependencies": {
     "origami-build-tools": "^10.9.2",
-    "origami-ci-tools": "1.1.1"
+    "origami-ci-tools": "^2.4.1"
   }
 }
