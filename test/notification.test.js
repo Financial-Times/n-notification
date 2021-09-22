@@ -1,5 +1,3 @@
-/* global describe, it, beforeEach afterEach*/
-
 import proclaim from 'proclaim';
 
 import helpers from './phantomjs-helpers.js';
