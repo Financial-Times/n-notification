@@ -1,4 +1,7 @@
-# n-notification [![Circle CI](https://circleci.com/gh/Financial-Times/n-notification/tree/master.svg?style=svg)](https://circleci.com/gh/Financial-Times/n-notification/tree/master)
+# n-notification 
+
+🚨 This component is now managed in the [origami component system](https://github.com/Financial-Times/origami/tree/main/components/n-notification) 🚨
+
 Component for showing onsite notification bars to users. Concurrent notifications are stacked, most recent at the top.
 
 # Usage
