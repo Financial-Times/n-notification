@@ -1,3 +1,6 @@
+# :warning: n-notification is now part of Origami
+Please check [https://github.com/Financial-Times/origami](https://github.com/Financial-Times/origami)
+
 # n-notification [![Circle CI](https://circleci.com/gh/Financial-Times/n-notification/tree/main.svg?style=svg)](https://circleci.com/gh/Financial-Times/n-notification/tree/main)
 Component for showing onsite notification bars to users. Concurrent notifications are stacked, most recent at the top.
 
